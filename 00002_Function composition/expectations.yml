@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previousTimesThree
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previousTimesThree
+  inspection: HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previousTimesThree
+  inspection: HasUsage:timesThree
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: previousTimesThree
+  inspection: HasUsage:previous
